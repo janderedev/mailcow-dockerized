@@ -66,3 +66,6 @@ rebuild-images.sh
 refresh_images.sh
 update_diffs/
 create_cold_standby.sh
+
+wg.conf
+frpc.ini
