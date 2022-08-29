@@ -353,6 +353,13 @@ services:
             - postfix
             - postfix-mailcow
 
+    frpc:
+      image: snowdreamtech/frpc
+      network_mode: host
+      restart: unless-stopped
+      volumes:
+        - ./frpc.ini:/etc/frp/frpc.ini:ro
+
     memcached-mailcow:
       image: memcached:alpine
       restart: always
