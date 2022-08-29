@@ -69,3 +69,4 @@ create_cold_standby.sh
 
 wg.conf
 frpc.ini
+volumes/
